@@ -1,0 +1,35 @@
+{
+  "name": "gulp-pngmin",
+  "version": "0.1.0",
+  "description": "Gulp task for optimize PNG.",
+  "main": "lib/pngmin.js",
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-clean": "^0.3.1",
+    "gulp-coffee": "^2.0.1"
+  },
+  "dependencies": {
+    "pngquant": "^0.1.5",
+    "through2": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nariyu/gulp-pngmin.git"
+  },
+  "homepage": "https://github.com/nariyu/gulp-pngmin",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "pngquant",
+    "images",
+    "js",
+    "plugin",
+    "transform"
+  ],
+  "author": {
+    "name": "Yusuke Narita",
+    "email": "nariyu@gmail.com",
+    "url": "http://nariyu.jp"
+  },
+  "license": "MIT"
+}
