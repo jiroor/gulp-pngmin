@@ -21,10 +21,7 @@
     "gulp",
     "gulpplugin",
     "pngquant",
-    "images",
-    "js",
-    "plugin",
-    "transform"
+    "image"
   ],
   "author": {
     "name": "Yusuke Narita",
