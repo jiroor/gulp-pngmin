@@ -1,6 +1,8 @@
 # gulp-pngmin
 
-Gulp task for optimize PNG.
+Gulp plugin for optimize PNG.
+
+[![Build Status](https://travis-ci.org/nariyu/gulp-pngmin.svg?branch=master)](https://travis-ci.org/nariyu/gulp-pngmin)
 
 Required: pngquant
 

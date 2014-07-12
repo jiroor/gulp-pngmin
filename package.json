@@ -1,6 +1,6 @@
 {
   "name": "gulp-pngmin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp task for optimize PNG.",
   "main": "lib/pngmin.js",
   "devDependencies": {
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "pngquant": "^0.1.5",
+    "sprintf": "^0.1.3",
     "through2": "^0.5.1"
   },
   "repository": {
