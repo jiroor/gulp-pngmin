@@ -1,13 +1,13 @@
 
 # require modules
 gulp   = require 'gulp'
-clean  = require 'gulp-clean'
+rimraf = require 'gulp-rimraf'
 coffee = require 'gulp-coffee'
 
 # Clean
 gulp.task 'clean', ->
   gulp.src 'lib'
-    .pipe clean()
+    .pipe rimraf()
 
 # CoffeeScript
 gulp.task 'coffee', ->
@@ -16,5 +16,4 @@ gulp.task 'coffee', ->
     .pipe gulp.dest 'lib'
 
 # Build
-gulp.task 'default', ['clean'], ->
-  gulp.start 'coffee'
+gulp.task 'default', ['clean', 'coffee']
