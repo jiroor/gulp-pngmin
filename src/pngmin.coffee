@@ -21,7 +21,7 @@ module.exports = (options = [256])->
 
       originalSize = file.contents.length
 
-      tmpFilePath = path.resolve os.tmpDir(), 'pngmin_' + (+new Date) + '_' + path.basename(file.path)
+      tmpFilePath = path.resolve os.tmpdir(), 'pngmin_' + (+new Date) + '_' + path.basename(file.path)
       writeStream = fs.createWriteStream tmpFilePath
       # memStream = new MemoryStream
       file.pipe(new pngquant options).pipe writeStream
