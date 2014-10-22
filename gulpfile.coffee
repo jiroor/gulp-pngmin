@@ -15,5 +15,12 @@ gulp.task 'coffee', ->
     .pipe coffee()
     .pipe gulp.dest 'lib'
 
+# 
+gulp.task 'test', ->
+  pngmin = require './lib/pngmin'
+  gulp.src 'examples/images/*.png'
+    .pipe pngmin()
+    .pipe gulp.dest 'examples/optimized_images'
+
 # Build
 gulp.task 'default', ['clean', 'coffee']
