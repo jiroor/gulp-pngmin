@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "pngquant": "^0.4.0",
+    "pngquant": "git://github.com/jiroor/node-pngquant#d1f304d",
     "sprintf": "^0.1.4",
     "through2": "^0.5.1"
   },
